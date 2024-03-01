@@ -1,0 +1,30 @@
+/* Reset CSS */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* image */
+img{
+    width: 200px;
+    padding: 5px;
+}
+/* container */
+.container{
+    height: 100vh;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Button */
+.btn{
+    padding: 10px;
+    width: 50px;
+    border: none;
+    background-color: rgb(149, 141, 141);
+}
+.btn:hover{
+    background-color: white;
+}
